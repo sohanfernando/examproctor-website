@@ -7,6 +7,8 @@ import {
 import { SiTensorflow } from 'react-icons/si';
 import { SiOpencv } from 'react-icons/si';
 import { FaNodeJs } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiHuggingface } from "react-icons/si";
 
 
 const YOLOIcon = () => (
@@ -55,12 +57,14 @@ const Domain = ({ id }) => {
   ];
 
   const technologies = [
-    { name: "Python", icon: <FaPython />, description: "Backend + AI Models", color: "#3776ab" },
+    { name: "Python", icon: <FaPython />, description: "AI Models", color: "#3776ab" },
     { name: "TensorFlow", icon: <SiTensorflow />, description: "Machine Learning Framework", color: "#ff6f00" },
     { name: "YOLO", icon: <YOLOIcon />, description: "Object Detection", color: "#ff6b6b" },
     { name: "OpenCV", icon: <SiOpencv />, description: "Computer Vision", color: "#5c3ee8" },
+    { name: "Hugging Face", icon: <SiHuggingface />, description: "AI Models", color: "#ffcc00" },
     { name: "React", icon: <FaReact />, description: "Frontend Framework", color: "#61dafb" },
     { name: "NodeJS", icon: <FaNodeJs />, description: "Backend Framework", color: "#339933" },
+    { name: "MongoDB", icon: <SiMongodb />, description: "Database", color: "#47A248" },
     { name: ".NET", icon: <DotNetIcon />, description: "Backend Framework", color: "#512BD4" }
   ];
 
