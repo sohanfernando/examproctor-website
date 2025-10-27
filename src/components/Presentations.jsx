@@ -27,7 +27,7 @@ const Presentations = ({ id }) => {
       status: "Completed",
       icon: "📈",
       // TODO: Add Google Drive link here
-      downloadUrl: "https://docs.google.com/presentation/d/1kFFzRvzifUIjk_5QgNJN-bJtnGkHUSEq/edit?usp=drive_link&ouid=106857955575542278132&rtpof=true&sd=true", // Replace with actual Google Drive link
+      downloadUrl: "https://docs.google.com/presentation/d/1kFFzRvzifUIjk_5QgNJN-bJtnGkHUSEq/edit?usp=drive_link&ouid=106857955575542278132&rtpof=true&sd=true",
     },
     {
       title: "Final Presentation",
@@ -35,7 +35,7 @@ const Presentations = ({ id }) => {
       status: "Completed",
       icon: "🎯",
       // TODO: Add Google Drive link here
-      downloadUrl: "", // Replace with actual Google Drive link
+      downloadUrl: "https://docs.google.com/presentation/d/1KxYW8tTV3olBMtqY9QODrpCnx1pAQm_T/edit?usp=drive_link&ouid=106857955575542278132&rtpof=true&sd=true",
     }
   ];
 
