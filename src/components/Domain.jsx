@@ -9,7 +9,7 @@ import { SiOpencv } from 'react-icons/si';
 import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { SiHuggingface } from "react-icons/si";
-
+import { SiFlask } from "react-icons/si";
 
 const YOLOIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
@@ -59,6 +59,7 @@ const Domain = ({ id }) => {
   const technologies = [
     { name: "Python", icon: <FaPython />, description: "AI Models", color: "#3776ab" },
     { name: "TensorFlow", icon: <SiTensorflow />, description: "Machine Learning Framework", color: "#ff6f00" },
+    { name: "Flask", icon: <SiFlask />, description: "Backend Framework & REST APIs", color: "#000000" },
     { name: "YOLO", icon: <YOLOIcon />, description: "Object Detection", color: "#ff6b6b" },
     { name: "OpenCV", icon: <SiOpencv />, description: "Computer Vision", color: "#5c3ee8" },
     { name: "Hugging Face", icon: <SiHuggingface />, description: "AI Models", color: "#ffcc00" },
